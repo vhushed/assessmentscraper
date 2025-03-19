@@ -111,7 +111,7 @@ curl_close($ch);
         }
     }
     usort($articles, function ($a, $b) {
-        return $b['timestamp'] - $a['timestamp']; // Changed to descending order
+        return $b['timestamp'] - $a['timestamp']; 
     });
 
 
